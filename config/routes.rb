@@ -3,6 +3,6 @@ Rails.application.routes.draw do
 
   #resources :students, only: :index
   
-  get 'index', to: 'students#index'
+  get 'index', to: 'student#index'
 
 end
